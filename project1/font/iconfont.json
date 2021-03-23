@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2481167",
+      "name": "JD",
+      "font_class": "JD",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "3294138",
+      "name": "大于",
+      "font_class": "dayu",
+      "unicode": "e516",
+      "unicode_decimal": 58646
+    },
+    {
+      "icon_id": "4745152",
+      "name": "导航栏",
+      "font_class": "daohanglan",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "7735735",
+      "name": "导航栏 - 搜索",
+      "font_class": "daohanglan-sousuo",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    }
+  ]
+}

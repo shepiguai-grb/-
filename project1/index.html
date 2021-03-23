@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <script>
+        function auto() {
+            var deviceWidth = document.documentElement.clientWidth;
+            if (deviceWidth > 1080) {
+                deviceWidth = 1080;
+            }
+            // 1080 100
+            // 540 50
+            var fs = (deviceWidth / 1080) * 100;
+            document.documentElement.style.fontSize = fs + "px";
+        }
+        auto();
+        // 当屏幕宽度改变时触发
+        window.onresize = function () {
+            auto();
+        }
+    </script>
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header_content1">
+            <div>
+                <span class="iconfont icon-daohanglan"></span>
+            </div>
+        </div>
+        <div class="header_content2">
+            <div class="a">
+                <span class="iconfont icon-JD"></span>
+            </div>
+            <div class="b">
+                <span class="iconfont icon-daohanglan-sousuo"></span>
+            </div>
+            <div class="c">
+                <input type="text" placeholder="奥利奥饼干" maxlength="21">
+            </div>
+        </div>
+        <div class="header_content3">登录</div>
+    </header>
+
+
+    <div class="banner">
+        <div class="banner_img"></div>
+    </div>
+    <nav>
+        <div class="nav_content">
+            <div class="box box1"></div>
+            <div class="nav_content_text">京东超市</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box2"></div>
+            <div class="nav_content_text">数码电器</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box3"></div>
+            <div class="nav_content_text">京东服饰</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box4"></div>
+            <div class="nav_content_text">京东生鲜</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box5"></div>
+            <div class="nav_content_text">京东到家</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box6"></div>
+            <div class="nav_content_text">充值缴费</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box7"></div>
+            <div class="nav_content_text">9.9元拼</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box8"></div>
+            <div class="nav_content_text">领券</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box9"></div>
+            <div class="nav_content_text">赚钱</div>
+        </div>
+
+        <div class="nav_content">
+            <div class="box box10"></div>
+            <div class="nav_content_text">PLUS会员</div>
+        </div>
+
+        <div class="nav_fotter">
+            <div class="nav_fotter1"></div>
+            <div class="nav_fotter2"></div>
+        </div>
+    </nav>
+    <article>
+        <section class="section1">
+            <div class="section1_box1 clearfix">
+                <div class="section1_content1"></div>
+                <div class="section1_content2">10点场</div>
+
+                <div class="section1_content4"></div>
+                <div class="section1_content3_1">更多秒杀</div>
+
+            </div>
+
+            <div class="section1_box2 clearfix">
+                <div class="section1_box2_content">
+                    <div class="section1_box2_content_img section1_box2_content_img1"></div>
+                    <div class="section1_box2_content_text1">￥2569</div>
+                    <div class="section1_box2_content_text2">￥3099</div>
+                </div>
+                <div class="section1_box2_content">
+                    <div class="section1_box2_content_img section1_box2_content_img2"></div>
+                    <div class="section1_box2_content_text1">￥55</div>
+                    <div class="section1_box2_content_text2">￥168</div>
+                </div>
+                <div class="section1_box2_content">
+                    <div class="section1_box2_content_img section1_box2_content_img3"></div>
+                    <div class="section1_box2_content_text1">￥5499</div>
+                    <div class="section1_box2_content_text2">￥5799</div>
+                </div>
+                <div class="section1_box2_content">
+                    <div class="section1_box2_content_img section1_box2_content_img4"></div>
+                    <div class="section1_box2_content_text1">￥4099</div>
+                    <div class="section1_box2_content_text2">￥4699</div>
+                </div>
+
+            </div>
+            <div class="section1_box3"></div>
+        </section>
+        <section class="section2">
+            <div class="section2_img section2_img1"></div>
+            <div class="section2_img section2_img2"></div>
+        </section>
+        <section class="section3">
+            <div class="section3_img"></div>
+        </section>
+        <section class="section4">
+            <div class="section4_box section4_box1">
+                <div class="section4_box1_content1">
+                    <div class="section4_box1_content1_text1">爱车生活</div>
+                    <div class="section4_box1_content1_text2">车主爱车很简单</div>
+                </div>
+                <div class="section4_box1_content2">
+                    <div class="section4_box1_content2_img section4_box1_content2_img1"></div>
+                    <div class="section4_box1_content2_img section4_box1_content2_img2"></div>
+                </div>
+            </div>
+
+            <div class="section4_box section4_box2">
+                <div class="section4_box1_content1">
+                    <div class="section4_box1_content1_text1">春节出游</div>
+                    <div class="section4_box1_content1_text2">共享欢乐时光</div>
+                </div>
+                <div class="section4_box1_content2">
+                    <div class="section4_box1_content2_img section4_box1_content2_img3"></div>
+                    <div class="section4_box1_content2_img section4_box1_content2_img4"></div>
+                </div>
+            </div>
+
+            <div class="section4_box section4_box3">
+                <div class="section4_box3_content section4_box3_content1">
+                    <div class="section4_box3_content1_text">
+                        <div class="section4_box3_content1_text1">上班族</div>
+                        <div class="section4_box3_content1_text2">快手美味</div>
+                    </div>
+                    <div class="section4_box3_content1_img section4_box3_content1_img1"></div>
+                </div>
+                <div class="section4_box3_content section4_box3_content2">
+                    <div class="section4_box3_content1_text">
+                        <div class="section4_box3_content1_text1">女神进阶</div>
+                        <div class="section4_box3_content1_text2">你本来就美</div>
+                    </div>
+                    <div class="section4_box3_content1_img section4_box3_content1_img2"></div>
+                </div>
+            </div>
+
+            <div class="section4_box section4_box4">
+                <div class="section4_box3_content section4_box3_content1">
+                    <div class="section4_box3_content1_text">
+                        <div class="section4_box3_content1_text1">备战考试</div>
+                        <div class="section4_box3_content1_text2">我叫不紧张</div>
+                    </div>
+                    <div class="section4_box3_content1_img section4_box3_content1_img3"></div>
+                </div>
+                <div class="section4_box3_content section4_box3_content2">
+                    <div class="section4_box3_content1_text">
+                        <div class="section4_box3_content1_text1">送礼首选</div>
+                        <div class="section4_box3_content1_text2">送礼送健康</div>
+                    </div>
+                    <div class="section4_box3_content1_img section4_box3_content1_img4"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="section5_img"></div>
+        </section>
+
+        <section class="section6">
+            <div class="section6_content section6_content1">
+                <div class="section6_content1_text section6_content1_text11">免息星球</div>
+                <div class="section6_content1_text2">白条免息购</div>
+                <div class="section6_content1_img section6_content1_img1"></div>
+            </div>
+            <div class="section6_content section6_content2">
+                <div class="section6_content1_text section6_content1_text21">每日特价</div>
+                <div class="section6_content1_text2">9.9疯抢</div>
+                <div class="section6_content1_img section6_content1_img2"></div>
+            </div>
+            <div class="section6_content section6_content3">
+                <div class="section6_content1_text section6_content1_text31">品牌闪购</div>
+                <div class="section6_content1_text2">汇大牌好价</div>
+                <div class="section6_content1_img section6_content1_img3"></div>
+            </div>
+            <div class="section6_content section6_content4">
+                <div class="section6_content1_text section6_content1_text41">京东直播</div>
+                <div class="section6_content1_text2">边看边买</div>
+                <div class="section6_content1_img section6_content1_img4"></div>
+            </div>
+            <div class="section6_content section6_content5">
+                <div class="section6_content1_text section6_content1_text51">排行榜</div>
+                <div class="section6_content1_text2">热销推荐</div>
+                <div class="section6_content1_img section6_content1_img5"></div>
+            </div>
+            <div class="section6_content section6_content6">
+                <div class="section6_content1_text section6_content1_text61">拍拍好物</div>
+                <div class="section6_content1_text2">二手优品</div>
+                <div class="section6_content1_img section6_content1_img6"></div>
+            </div>
+            <div class="section6_content section6_content7">
+                <div class="section6_content1_text section6_content1_text71">新品首发</div>
+                <div class="section6_content1_text2">京东小魔方</div>
+                <div class="section6_content1_img section6_content1_img7"></div>
+            </div>
+            <div class="section6_content section6_content8">
+                <div class="section6_content1_text section6_content1_text81">发现好货</div>
+                <div class="section6_content1_text2">教你买买买</div>
+                <div class="section6_content1_img section6_content1_img8"></div>
+            </div>
+        </section>
+        <section class="section7 clearfix">
+            <div class="section7_content1"></div>
+            <div class="section7_content2 clearfix">
+                <span class="section7_content2_text1">推荐</span> 锁服不锁区！国行Switch体验分享
+            </div>
+            <div class="section7_content3">更多</div>
+        </section>
+        <section class="section8">
+            <div class="section8_hearder"></div>
+            <div class="section8_box">
+                <div class="section8_content section8_content2">
+                    <div class="section8_content2_img section8_content2_img1"></div>
+                    <div class="section8_content2_text1"><img src="./images/jdwl_bj.png" alt=""
+                            class="a_img">&nbsp;稻草人（MEXICAN）羽绒服男短款2019新款连帽青年休闲时尚保暖冬季外套男装 迷彩色 L</div>
+                    <div class="section8_content2_text2">
+                        <div class="section8_content2_text2_1">￥199</div>
+                        <div class="section8_content2_text2_2">看相似</div>
+                    </div>
+                    <div class="section8_content3"></div>
+                </div>
+                <div class="section8_content section8_content2">
+                    <div class="section8_content2_img section8_content2_img2"></div>
+                    <div class="section8_content2_text1"><img src="./images/jdwl_bj.png" alt=""
+                            class="a_img">&nbsp;vanuucci中长款羽绒服男青少年学生韩版修身加厚连帽青年冬</div>
+                    <div class="section8_content2_text2">
+                        <div class="section8_content2_text2_1">￥199</div>
+                        <div class="section8_content2_text2_2">看相似</div>
+                    </div>
+                    <div class="section8_content3"></div>
+                </div>
+                <div class="section8_content section8_content2">
+                    <div class="section8_content2_img section8_content2_img3"></div>
+                    <div class="section8_content2_text1"><img src="./images/zy_bj.png" alt=""
+                            class="a_img">&nbsp;【满300减210】三只松鼠 休闲零食 紫薯仔100g/袋 小吃特产地瓜番薯办公室零食.</div>
+                    <div class="section8_content2_text2">
+                        <div class="section8_content2_text2_1">￥14.9</div>
+                        <div class="section8_content2_text2_2">看相似</div>
+                    </div>
+                    <div class="section8_content3"></div>
+                </div>
+                <div class="section8_content section8_content2">
+                    <div class="section8_content2_img section8_content2_img4"></div>
+                    <div class="section8_content2_text1"><img src="" alt=""
+                            class="a_img">&nbsp;联想（Lenovo）扬天V14系列14英寸全新商务办公影音游戏娱乐学生独显本轻薄便携手提笔记本电脑 官方标配i5-8265U 4G内存
+                        1T大硬盘 FHD全高清屏 2G独显 深空灰</div>
+                    <div class="section8_content2_text2">
+                        <div class="section8_content2_text2_1">￥3988</div>
+                        <div class="section8_content2_text2_2">看相似</div>
+                    </div>
+                    <div class="section8_content3"></div>
+                </div>
+            </div>
+            <div class="section8_footer">点击继续加载</div>
+        </section>
+    </article>
+    <footer>
+        <div class="footer_box1">
+            <div class="footer_box1_content1">
+                <div class="footer_box1_content1_text1">登录</div>
+            </div>
+            <div class="footer_box1_content1">
+                <div class="footer_box1_content1_text1">注册</div>
+            </div>
+            <div class="footer_box1_content1">
+                <div class="footer_box1_content1_text1">客户服务</div>
+            </div>
+            <div class="footer_box1_content1">
+                <div class="footer_box1_content1_text1">返回顶部</div>
+            </div>
+        </div>
+        <div class="footer_box2">
+            <div class="footer_box2_img footer_box2_img1"></div>
+            <div class="footer_box2_img footer_box2_img2"></div>
+            <div class="footer_box2_img footer_box2_img3"></div>
+        </div>
+        <div class="footer_box3">Copyright © 2004-2019 京东JD.com 版权所有</div>
+        <div class="footer_box4"></div>
+    </footer>
+    <div class="footer_gdl">
+        <div class="footer_gdl_content footer_gdl_content1"></div>
+        <div class="footer_gdl_content footer_gdl_content2"></div>
+        <div class="footer_gdl_content footer_gdl_content3"></div>
+        <div class="footer_gdl_content footer_gdl_content4"></div>
+        <div class="footer_gdl_content footer_gdl_content5"></div>
+    </div>
+</body>
+
+</html>
